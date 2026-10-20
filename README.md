@@ -49,39 +49,10 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-<div style="
-  background-color: #fefabc;
-  color: #333333;
-  width: 260px;
-  min-height: 200px;
-  padding: 20px;
-  border-left: 1px solid #f0e68c;
-  box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.15);
-  transform: rotate(-2deg);
-  font-family: 'Comic Sans MS', 'Caveat', 'Segoe Print', cursive, sans-serif;
-  margin: 20px auto;
-  position: relative;
-">
-  <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 10px; border-bottom: 2px stroke #e6dc83;">
-    📌 Important Note
-  </div>
-  <p style="margin: 0; line-height: 1.4;">
-    Remember to update the badge taxonomy labels in the repository before releasing v1.0!
-  </p>
-</div>
-
-<div style="background-color:#fffde7">
-<table width="100%" style="border-collapse: collapse;">
-  <tr>
-    <td style="border-left: 6px solid #ffeb3b; padding: 16px; border-radius: 4px;">
-      <p style="margin: 0; color: #1c1b1f;">
-        <b>📌 Note on Voluntary Adoption:</b><br>
-        <i>Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.</i>
-      </p>
-    </td>
-  </tr>
-</table>
-</div>
+> [!TIP]
+> **📌 Note on Voluntary Adoption**
+>
+> Using these labels is completely voluntary. No maintainer or developer is obligated to adopt them. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
@@ -108,7 +79,7 @@ ___
 
 The framework uses two primary categories split into three levels of intensity:
 
-<div class="framed-div", align="left">
+<div align="left">
 <details open>
 <summary><b><h3>AI Assisted/Supported</h3></b></summary>
 <br>
@@ -156,7 +127,7 @@ The framework uses two primary categories split into three levels of intensity:
 </div>
 </details>
 
-<div class="framed-div", align="left">
+<div align="left">
 <details open>
 <summary><b><h3>AI Generated</h3></b></summary>
 <br>
