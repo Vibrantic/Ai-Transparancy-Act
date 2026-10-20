@@ -29,12 +29,8 @@ ___
 
 <table>
     <td>
-        <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-            <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
-        </a>
-        <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-            <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
-        </a>
+        <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
+        <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
     </td>
 </table>
 
