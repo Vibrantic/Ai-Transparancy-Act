@@ -1,4 +1,5 @@
 <div align="center">
+<a href="#top"><b></b></a>
 <h1>AI TRANSPARENCY ACT</h1>
 
 <img src="https://img.shields.io/badge/AI_Usage-SUP-a8d600?labelColor=555555&color=a8d600&style=flat-square" alt="AI Usage - SUP Low">
