@@ -34,8 +34,10 @@ ___
     </td>
 </table>
 
-In line with the transparency principles of this project, please note that this `README.md` file was generated using 
-[Gemini (Google AI)](https://gemini.google.com/) and [Copilot (GPT-5.6)](https://copilot.microsoft.com/) and to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
+<p align="left">
+In line with the transparency principles of this project, please note that this `README.md` file was partialy generated using <a href="https://gemini.google.com/">Gemini (Google AI)</a> and <a href="https://copilot.microsoft.com/">Copilot (GPT-5.6)</a> and to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
+</p>
+
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
@@ -46,7 +48,15 @@ ___
 <a id="-about-this-project"></a>
 <div align="center">
 <h1>About</h1>
-Standardized, open-source svg and shield badges to declare the level of AI involvement in software, writing, design, and hardware projects.
+<p align="left">
+The AI Transparency Act is an open and vendor-neutral disclosure standard designed to bring greater transparency to AI-assisted and AI-generated projects.
+</p>
+<p align="left">
+As AI becomes increasingly integrated into software development, documentation, design, writing, research, and hardware engineering, understanding how a project was created becomes increasingly valuable. This repository provides a simple taxonomy and a collection of standardized badges that allow creators to voluntarily disclose the degree of AI involvement in their work.
+</p>
+<p align="left">
+The goal is not to promote or discourage AI usage. The goal is transparency. Clear disclosure helps users evaluate projects, understand development processes, encourage informed decision-making, and foster trust between creators and their communities.
+</p>
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
@@ -67,12 +77,21 @@ ___
 ___
 
 <a id="-why"></a>
-<div align="center">
-<h2>Why This Project Exists</h2>
+<div align="left">
+<h2>Why transparency matters?</h2>
 
-As AI tools become deeply integrated into software development and content creation, transparency matters more than ever. Users, contributors, and maintainers have different expectations regarding code provenance, security, and human oversight. 
+Artificial intelligence is becoming a normal part of software development, content creation, research, and engineering. Yet many projects provide little or no indication of how AI contributed to the final result.
 
-This repository provides a simple, standard labeling system so developers and creators can clearly state **how much AI was used** and **in what capacity**. Building up trust, respecting user preferences, and setting clear expectations.
+The absence of disclosure can create uncertainty, misunderstandings, and unnecessary debate. Some users may prefer fully human-created work, while others may welcome AI-assisted development. Both perspectives benefit from transparent information.
+
+The AI Transparency Act does not attempt to judge, rank, encourage, or discourage AI usage. Instead, it promotes a simple principle:
+
+<div align="center", >
+<b>People should be able to understand how a project was created.</b>
+</div>
+ㅤ
+
+Transparency enables informed decisions, honest communication, and stronger trust between creators and their communities.
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
@@ -277,6 +296,15 @@ ___
 
 Suggestions for refining these definitions or adding asset icons are welcome. Please open an issue or submit a pull request!
 </div>
+
+> [!IMPORTANT]
+> ❤️ **A Personal Note**
+> 
+> The icons and badges provided by this project were created manually using Inkscape. No AI-generated imagery was used during their creation.
+> 
+> I am not a professional designer. These graphics reflect my personal vision and should be viewed as recommendations rather than definitive designs.
+> 
+> This project was created with the intention of helping the community, encouraging transparency, and providing a foundation that others may improve upon. The goal is not perfection, but contribution.
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
@@ -289,5 +317,6 @@ ___
 
 This specification and all associated badges are available under the **CC0 1.0 Universal (Public Domain)** license. Feel free to use them freely in any open-source or commercial project.
 </div>
+
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
