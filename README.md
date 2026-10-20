@@ -49,7 +49,7 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-<div style="background:#fffde7">
+<div style="background-color:#fffde7">
 <table width="100%" style="border-collapse: collapse;">
   <tr>
     <td style="border-left: 6px solid #ffeb3b; padding: 16px; border-radius: 4px;">
