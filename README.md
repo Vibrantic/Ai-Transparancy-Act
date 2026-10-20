@@ -5,7 +5,7 @@ Standardized, open-source svg badges to declare the level of AI involvement in s
 <h3><b> So we will start with it! </b></h3>
 </div>
 
-<center>
+<div align="center">
 <h2> Documentation Disclosure </h2>
 <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
   <img src="./labels/AiAssisted_Mid.svg" alt="AI Assisted: Low" height="128">
@@ -13,39 +13,36 @@ Standardized, open-source svg badges to declare the level of AI involvement in s
 
 In line with the transparency principles of this project, please note that this `README.md` file was generated using 
 **Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
-</center>
+</div>
 
 ___
 ___
 
-<center>
+<div align="center">
 <h2> Note on Voluntary Adoption </h2>
 Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
-</center>
+</div>
 
 ___
 ___
 
-<center>
+<div align="center">
 <h2>Why This Project Exists</h2>
 
 As AI tools become deeply integrated into software development and content creation, transparency matters more than ever. Users, contributors, and maintainers have different expectations regarding code provenance, security, and human oversight. 
 
 This repository provides a simple, standard labeling system so developers and creators can clearly state **how much AI was used** and **in what capacity**. Building up trust, respecting user preferences, and setting clear expectations.
-</center>
+</div>
 
 ___
 ___
 
-<center>
+<div align="center">
 <h2>Label Structure & Taxonomy</h2>
 
 The framework uses two primary categories split into three levels of intensity:
-</center>
 
-<center>
 <h3>AI Assisted/Supported</h3>
-</center>
 
 <table>
   <thead>
@@ -88,9 +85,7 @@ The framework uses two primary categories split into three levels of intensity:
   </tbody>
 </table>
 
-<center>
 <h3>AI Generated</h3>
-</center>
 
 <table>
   <thead>
@@ -133,15 +128,15 @@ The framework uses two primary categories split into three levels of intensity:
   </tbody>
 </table>
 
+</div>
+
 ___
 ___
 
-<center>
+<div align="center">
 <h2> How to Use in Your Project</h2>
 
-<center>
 <h3>Markdown Snippets</h3>
-</center>
 
 Copy and paste the relevant Markdown badge or svg into your repository’s `README.md`.
 
@@ -175,13 +170,11 @@ Copy and paste the relevant Markdown badge or svg into your repository’s `READ
     </td>
   </tr>
 </table>
-</center>
+</div>
 
 
-<center>
-<center>
+<div align="center">
 <h3>SVG Labels</h3>
-</center>
 
 Right click copy image and past into your repository's `Readme.md`.
 
@@ -215,22 +208,22 @@ Right click copy image and past into your repository's `Readme.md`.
     </td>
   </tr>
 </table>
-</center>
+</div>
 
 ___
 ___
 
-<center>
+<div align="center">
 <h2> Contributing & Feedback </h2>
 
 Suggestions for refining these definitions or adding asset icons are welcome. Please open an issue or submit a pull request!
-</center>
+</div>
 
 ___
 ___
 
-<center>
+<div align="center">
 <h2> License </h2>
 
 This specification and all associated badges are available under the **CC0 1.0 Universal (Public Domain)** license. Feel free to use them freely in any open-source or commercial project.
-</center>
+</div>
