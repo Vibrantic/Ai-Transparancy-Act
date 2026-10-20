@@ -1,79 +1,3 @@
-<style>
-  .framed-div {
-    border: 1px solid #3a3a3a; /* thickness, style, color */
-    padding: 10px;
-    margin-bottom:15px;
-    border-radius: 4px; /* Optional: rounds the corners */
-    background: #222222;
-    box-shadow: 5px 5px 7px rgb(0, 0, 0);
-  }
-
-  .ribbon-card {
-    position: relative;
-    width: 280px;
-    padding: 24px;
-    background: #1c1b1f;
-    color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden; /* Clips the ribbon outside the box */
-    font-family: sans-serif;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .corner-ribbon {
-    position: absolute;
-    top: 15px;
-    right: -35px;
-    width: 130px;
-    text-align: center;
-    background: #a8d600;
-    color: #000000;
-    font-weight: bold;
-    font-size: 0.75em;
-    padding: 5px 0;
-    transform: rotate(45deg);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-
-  }
-  .folded-card {
-    position: relative;
-    background: linear-gradient(135deg, #fefabc 74%, #e6e29e 100%);
-    color: #333333;
-    width: 260px;
-    padding: 24px;
-    border-radius: 4px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: sans-serif;
-  }
-
-  /* Creates the folded triangle overlay */
-  .folded-card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 35px;
-    height: 35px;
-    background: linear-gradient(225deg, #ffffff 50%, #dcd78c 50%);
-    border-bottom-left-radius: 6px;
-    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
-  }
-  .simple_green_note {
-    background-color: #f4fce3;
-    border-left: 6px solid #a8d600;
-    padding: 16px;
-    border-radius: 4px;
-    }
-
-    .simple_yellow_note {
-    background-color: #fffde7;
-    border-left: 6px solid #ffeb3b;
-    padding: 16px;
-    border-radius: 4px;
-    }
-</style>
-
-
 <div align="center">
 <h1>AI TRANSPARENCY ACT</h1>
 Standardized, open-source svg and shield badges to declare the level of AI involvement in software, writing, design, and hardware projects.
@@ -125,7 +49,12 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-<div class="simple_green_note">
+<div style="
+background-color: #fffde7;
+border-left: 6px solid #ffeb3b;
+padding: 16px;
+border-radius: 4px;">
+
   <table width=100%>
     <tr>
       <td>
@@ -136,6 +65,7 @@ ___
       </td>
     </tr>
   </table>
+
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
