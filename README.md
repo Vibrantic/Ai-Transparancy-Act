@@ -1,5 +1,11 @@
 <div align="center">
 <h1>AI TRANSPARENCY ACT</h1>
+
+<img src="https://img.shields.io/badge/AI_Usage-SUP-a8d600?labelColor=555555&color=a8d600&style=flat-square" alt="AI Usage - SUP Low">
+<img src="https://img.shields.io/badge/AI_Usage-GEN-ffeb3b?labelColor=555555&color=ffeb3b&style=flat-square" alt="AI Usage - GEN Mid">
+<img src="https://img.shields.io/badge/License-CC0_1.0-blue?style=flat-square&labelColor=555555" alt="License: CC0 1.0">
+<img src="https://img.shields.io/badge/Status-Active_Standard-brightgreen?style=flat-square&labelColor=555555" alt="Status">
+
 Standardized, open-source svg and shield badges to declare the level of AI involvement in software, writing, design, and hardware projects.
 <br></br>
 <p align="center">
@@ -20,15 +26,22 @@ ___
 
 <div align="center">
 <h2> Documentation Disclosure </h2>
-<a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-  <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
-</a>
-<a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-  <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
-</a>
+
+<table>
+    <td>
+        <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
+            <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
+        </a>
+    <td>
+    <td>
+        <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
+            <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
+        </a>
+    </td>
+</table>
 
 In line with the transparency principles of this project, please note that this `README.md` file was generated using 
-**Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
+[Gemini (Google AI)](https://gemini.google.com/) and [Copilot (GPT-5.6)](https://copilot.microsoft.com/) and to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
