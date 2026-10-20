@@ -49,13 +49,8 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-<div style="
-background-color: #fffde7;
-border-left: 6px solid #ffeb3b;
-padding: 16px;
-border-radius: 4px;">
-
-  <table width=100%>
+<div style="background-color: #fffde7; border-left: 6px solid #ffeb3b; padding: 16px;border-radius: 4px;">
+  <table width="100%">
     <tr>
       <td>
         <p style="margin: 0; color: #1c1b1f;">
@@ -65,7 +60,6 @@ border-radius: 4px;">
       </td>
     </tr>
   </table>
-
 </div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
