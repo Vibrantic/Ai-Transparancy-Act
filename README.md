@@ -1,31 +1,149 @@
+<style>
+  .framed-div {
+    border: 1px solid #3a3a3a; /* thickness, style, color */
+    padding: 10px;
+    margin-bottom:15px;
+    border-radius: 4px; /* Optional: rounds the corners */
+    background: #222222;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+  }
+
+  .ribbon-card {
+    position: relative;
+    width: 280px;
+    padding: 24px;
+    background: #1c1b1f;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden; /* Clips the ribbon outside the box */
+    font-family: sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .corner-ribbon {
+    position: absolute;
+    top: 15px;
+    right: -35px;
+    width: 130px;
+    text-align: center;
+    background: #a8d600;
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.75em;
+    padding: 5px 0;
+    transform: rotate(45deg);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  }
+  .folded-card {
+    position: relative;
+    background: linear-gradient(135deg, #fefabc 74%, #e6e29e 100%);
+    color: #333333;
+    width: 260px;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+
+  /* Creates the folded triangle overlay */
+  .folded-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(225deg, #ffffff 50%, #dcd78c 50%);
+    border-bottom-left-radius: 6px;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .simple_green_note {
+    background-color: #f4fce3;
+    border-left: 6px solid #a8d600;
+    padding: 16px;
+    border-radius: 4px;
+    }
+
+    .simple_yellow_note {
+    background-color: #fffde7;
+    border-left: 6px solid #ffeb3b;
+    padding: 16px;
+    border-radius: 4px;
+    }
+</style>
+
+
 <div align="center">
-<h1>AI Transparency Badges & Labels</h1>
-Standardized, open-source svg badges to declare the level of AI involvement in software, writing, design, and hardware projects.
+<h1>AI TRANSPARENCY ACT</h1>
+Standardized, open-source svg and shield badges to declare the level of AI involvement in software, writing, design, and hardware projects.
+<br></br>
+<p align="center">
+  <a href="#-about-this-project"><b>About</b></a> •
+  <a href="#-note-on-voluntary-adoption"><b>Disclosure</b></a> •
+  <a href="#-why"><b>Why?</b></a> •
+  <a href="#-label-structure-&-taxonomy"><b>Taxonomy</b></a> •
+  <a href="#-how-to-use"><b>How to use?</b></a> •
+  <a href="#-contributing-&-feedback"><b>Contributing & Feedback</b></a> •
+  <a href="#-license"><b>License</b></a>
+</p>
 
 <h3><b> So we will start with it! </b></h3>
 </div>
 
+___
+___
+
 <div align="center">
 <h2> Documentation Disclosure </h2>
 <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-  <img src="./labels/AiAssisted_Mid.svg" alt="AI Assisted: Low" height="128">
+  <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
+</a>
+<a href="https://github.com/Vibrantic/Ai-Transparency-Act">
+  <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
 </a>
 
 In line with the transparency principles of this project, please note that this `README.md` file was generated using 
 **Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-about-this-project"></a>
 <div align="center">
-<h2> Note on Voluntary Adoption </h2>
-Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
+<h1>About</h1>
+Standardized, open-source svg and shield badges to declare the level of AI involvement in software, writing, design, and hardware projects.
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-note-on-voluntary-adoption"></a>
+
+<div class="simple_green_note">
+  <table width=100%>
+    <tr>
+      <td>
+        <p style="margin: 0; color: #1c1b1f;">
+          <b>📌 Note on Voluntary Adoption:</b><br>
+          <i>Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.</i>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
+
+___
+___
+
+<a id="-why"></a>
 <div align="center">
 <h2>Why This Project Exists</h2>
 
@@ -33,16 +151,22 @@ As AI tools become deeply integrated into software development and content creat
 
 This repository provides a simple, standard labeling system so developers and creators can clearly state **how much AI was used** and **in what capacity**. Building up trust, respecting user preferences, and setting clear expectations.
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-label-structure-&-taxonomy"></a>
 <div align="center">
 <h2>Label Structure & Taxonomy</h2>
 
 The framework uses two primary categories split into three levels of intensity:
 
-<h3>AI Assisted/Supported</h3>
+<div class="framed-div", align="left">
+<details open>
+<summary><b><h3>AI Assisted/Supported</h3></b></summary>
+<br>
 
 <table>
   <thead>
@@ -84,8 +208,13 @@ The framework uses two primary categories split into three levels of intensity:
     </tr>
   </tbody>
 </table>
+</div>
+</details>
 
-<h3>AI Generated</h3>
+<div class="framed-div", align="left">
+<details open>
+<summary><b><h3>AI Generated</h3></b></summary>
+<br>
 
 <table>
   <thead>
@@ -127,12 +256,16 @@ The framework uses two primary categories split into three levels of intensity:
     </tr>
   </tbody>
 </table>
-
 </div>
+</div>
+</details>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-how-to-use"></a>
 <div align="center">
 <h2> How to Use in Your Project</h2>
 
@@ -209,21 +342,29 @@ Right click copy image and past into your repository's `Readme.md`.
   </tr>
 </table>
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-contributing-&-feedback"></a>
 <div align="center">
 <h2> Contributing & Feedback </h2>
 
 Suggestions for refining these definitions or adding asset icons are welcome. Please open an issue or submit a pull request!
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ___
 ___
 
+<a id="-license"></a>
 <div align="center">
 <h2> License </h2>
 
 This specification and all associated badges are available under the **CC0 1.0 Universal (Public Domain)** license. Feel free to use them freely in any open-source or commercial project.
 </div>
+ㅤ
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
