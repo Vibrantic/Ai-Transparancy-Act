@@ -1,9 +1,9 @@
-<center>
+<div align="center">
 <h1>AI Transparency Badges & Labels</h1>
 Standardized, open-source svg badges to declare the level of AI involvement in software, writing, design, and hardware projects.
 
 <h3><b> So we will start with it! </b></h3>
-</center>
+</div>
 
 <center>
 <h2> Documentation Disclosure </h2>
