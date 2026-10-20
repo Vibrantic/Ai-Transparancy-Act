@@ -1,127 +1,236 @@
-# 🏷️ AI Transparency Badges & Labels
-
+<center>
+<h1>AI Transparency Badges & Labels</h1>
 Standardized, open-source svg badges to declare the level of AI involvement in software, writing, design, and hardware projects.
 
-<center>
 <h3><b> So we will start with it! </b></h3>
-
----
-
 </center>
 
 <center>
-<h2> 📝 Documentation Disclosure </h2>
+<h2> Documentation Disclosure </h2>
 <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
-  <img src="./.github/labels/AiAssisted_Mid.svg" alt="AI Assisted: Low" height="28">
+  <img src="./labels/AiAssisted_Mid.svg" alt="AI Assisted: Low" height="128">
 </a>
 
-In line with the transparency principles of this project, please note that this `README.md` file was generated using **Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
-
+In line with the transparency principles of this project, please note that this `README.md` file was generated using 
+**Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
 </center>
 
+___
+___
 
-
----
-
-## 💡 A Note on Voluntary Adoption
-
+<center>
+<h2> Note on Voluntary Adoption </h2>
 Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
+</center>
 
-## 💡 Why This Project Exists
+___
+___
+
+<center>
+<h2>Why This Project Exists</h2>
 
 As AI tools become deeply integrated into software development and content creation, transparency matters more than ever. Users, contributors, and maintainers have different expectations regarding code provenance, security, and human oversight. 
 
-This repository provides a simple, standard labeling system so developers and creators can clearly state **how much AI was used** and **in what capacity**—fostering trust, respecting user preferences, and setting clear expectations.
+This repository provides a simple, standard labeling system so developers and creators can clearly state **how much AI was used** and **in what capacity**. Building up trust, respecting user preferences, and setting clear expectations.
+</center>
 
----
+___
+___
 
-## 📊 Label Structure & Taxonomy
+<center>
+<h2>Label Structure & Taxonomy</h2>
 
 The framework uses two primary categories split into three levels of intensity:
+</center>
 
-- **AI Assisted:** Human-led work enhanced or accelerated by AI tools.
-- **AI Generated:** AI-led work guided or supervised by humans.
+<center>
+<h3>AI Assisted/Supported</h3>
+</center>
 
-| Category | Level | Indicator | Core Meaning |
-| :--- | :--- | :--- | :--- |
-| **AI Assisted** | **Low** | 🟢 Green | Minimal assistance (boilerplate, autocomplete, basic syntax fixes). |
-| **AI Assisted** | **Mid** | 🟡 Yellow | Moderate assistance (function generation, refactoring, documentation). |
-| **AI Assisted** | **High** | 🔴 Red | Heavy assistance (complete architecture or logic co-written by AI). |
-| **AI Generated** | **Low** | 🟢 Green | Mostly AI-generated, but heavily audited, refactored, and human-verified. |
-| **AI Generated** | **Mid** | 🟡 Yellow | Direct AI generation with moderate human review and light modifications. |
-| **AI Generated** | **High** | 🔴 Red | Raw or minimally edited AI output with limited human oversight. |
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Level</th>
+      <th>Scope</th>
+      <th>Human Oversight</th>
+      <th>Typical Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#a8d600"><b>🟢 Low</b></font></td>
+      <td>Inline code completion (Copilot/Ghostwriter), basic syntax lookups, formatting, or simple bug fixes.</td>
+      <td><b>90%+</b> written directly by humans.</td>
+      <td>Everyday software development with IDE autocompletion enabled.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiAssisted_Mid.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#ffeb3b"><b>🟡 Mid</b></font></td>
+      <td>Writing specific helper functions, generating documentation/comments, writing unit tests, or refactoring existing modules.</td>
+      <td>Human designs overall structure and logic; AI writes discrete blocks under supervision.</td>
+      <td>A developer prompts an AI to generate a specific regex or parsing module, then integrates it manually.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiAssisted_High.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#ff4c4c"><b>🔴 High</b></font></td>
+      <td>Co-architecting entire files, writing core algorithms based on user prompts, heavy debugging, and generating setup scripts.</td>
+      <td>Human acts as product manager and integrator; code is thoroughly reviewed and edited before commit.</td>
+      <td>Complex feature implementations built via conversational AI sessions with active human iteration.</td>
+    </tr>
+  </tbody>
+</table>
 
----
+<center>
+<h3>AI Generated</h3>
+</center>
 
-## 🛠️ Detailed Classification Guide
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Level</th>
+      <th>Scope</th>
+      <th>Human Oversight</th>
+      <th>Typical Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiGenerated_Low.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#a8d600"><b>🟢 Low</b></font></td>
+      <td>Full code blocks or entire files generated by AI, but comprehensively audited, refactored, and tested by a human.</td>
+      <td>Significant human validation, security checks, and manual fine-tuning.</td>
+      <td>A project skeleton or module built by AI where the human verified every line for production readiness.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#ffeb3b"><b>🟡 Mid</b></font></td>
+      <td>Code or content generated via AI prompts with basic functionality testing and minor manual tweaks.</td>
+      <td>High-level review and sanity checking; minimal structural edits.</td>
+      <td>Utility scripts, quick CLI tools, or boilerplate generators used largely as outputted by the model.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./labels/AiGenerated_High.svg" alt="AI Assisted Low" width="64" height="128"><br>
+      </td>
+      <td><font color="#ff4c4c"><b>🔴 High</b></font></td>
+      <td>End-to-end AI generation (e.g., prompt-to-app, v0, AutoGPT) pushed with little to no modification or manual audit.</td>
+      <td>Minimal to none beyond running the generation prompt.</td>
+      <td>Experimental code, quick prototypes, or automated repository generation.</td>
+    </tr>
+  </tbody>
+</table>
 
-### 1. 🤝 AI Assisted (Human-Led)
+___
+___
 
-Use these labels when a human author designed, structured, and wrote the primary logic or content, using AI as a tool or partner.
+<center>
+<h2> How to Use in Your Project</h2>
 
-#### 🟢 AI Assisted — Low
-- **Scope:** Inline code completion (Copilot/Ghostwriter), basic syntax lookups, formatting, or simple bug fixes.
-- **Human Oversight:** 90%+ written directly by humans.
-- **Use Case:** Everyday software development with IDE autocompletion enabled.
+<center>
+<h3>Markdown Snippets</h3>
+</center>
 
-#### 🟡 AI Assisted — Mid
-- **Scope:** Writing specific helper functions, generating documentation/comments, writing unit tests, or refactoring existing modules.
-- **Human Oversight:** Human designs overall structure and logic; AI writes discrete blocks under supervision.
-- **Use Case:** A developer prompts an AI to generate a specific regex or parsing module, then integrates it manually.
+Copy and paste the relevant Markdown badge or svg into your repository’s `README.md`.
 
-#### 🔴 AI Assisted — High
-- **Scope:** Co-architecting entire files, writing core algorithms based on user prompts, heavy debugging, and generating setup scripts.
-- **Human Oversight:** Human acts as product manager and integrator; code is thoroughly reviewed and edited before commit.
-- **Use Case:** Complex feature implementations built via conversational AI sessions with active human iteration.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-SUP-a8d600?labelColor=555555&color=a8d600&style=flat-square" alt="AI Usage - SUP Low"><br>
+      <font color="#a8d600"><b>SUP — Low</b></font>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-SUP-ffeb3b?labelColor=555555&color=ffeb3b&style=flat-square" alt="AI Usage - SUP Mid"><br>
+      <font color="#ffeb3b"><b>SUP — Mid</b></font>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-SUP-ff4c4c?labelColor=555555&color=ff4c4c&style=flat-square" alt="AI Usage - SUP High"><br>
+      <font color="#ff4c4c"><b>SUP — High</b></font>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-GEN-a8d600?labelColor=555555&color=a8d600&style=flat-square" alt="AI Usage - GEN Low"><br>
+      <font color="#a8d600"><b>GEN — Low</b></font>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-GEN-ffeb3b?labelColor=555555&color=ffeb3b&style=flat-square" alt="AI Usage - GEN Mid"><br>
+      <font color="#ffeb3b"><b>GEN — Mid</b></font>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI_Usage-GEN-ff4c4c?labelColor=555555&color=ff4c4c&style=flat-square" alt="AI Usage - GEN High"><br>
+      <font color="#ff4c4c"><b>GEN — High</b></font>
+    </td>
+  </tr>
+</table>
+</center>
 
----
 
-### 2. 🤖 AI Generated (AI-Led)
+<center>
+<center>
+<h3>SVG Labels</h3>
+</center>
 
-Use these labels when AI created the majority of the code, text, or assets, with human involvement focused on prompting, assembly, or oversight.
+Right click copy image and past into your repository's `Readme.md`.
 
-#### 🟢 AI Generated — Low
-- **Scope:** Full code blocks or entire files generated by AI, but comprehensively audited, refactored, and tested by a human.
-- **Human Oversight:** Significant human validation, security checks, and manual fine-tuning.
-- **Use Case:** A project skeleton or module built by AI where the human verified every line for production readiness.
+<table>
+  <tr>
+    <td align="center">
+      <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted Low" width="128" height="128"><br>
+      <b>AI Assisted: Low</b>
+    </td>
+    <td align="center">
+      <img src="./labels/AiAssisted_Mid.svg" alt="AI Assisted Mid" width="128" height="128"><br>
+      <b>AI Assisted: Mid</b>
+    </td>
+    <td align="center">
+      <img src="./labels/AiAssisted_High.svg" alt="AI Assisted High" width="128" height="128"><br>
+      <b>AI Assisted: High</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./labels/AiGenerated_Low.svg" alt="AI Generated Low" width="128" height="128"><br>
+      <b>AI Generated: Low</b>
+    </td>
+    <td align="center">
+      <img src="./labels/AiGenerated_Mid.svg" alt="AI Generated Mid" width="128" height="128"><br>
+      <b>AI Generated: Mid</b>
+    </td>
+    <td align="center">
+      <img src="./labels/AiGenerated_High.svg" alt="AI Generated High" width="128" height="128"><br>
+      <b>AI Generated: High</b>
+    </td>
+  </tr>
+</table>
+</center>
 
-#### 🟡 AI Generated — Mid
-- **Scope:** Code or content generated via AI prompts with basic functionality testing and minor manual tweaks.
-- **Human Oversight:** High-level review and sanity checking; minimal structural edits.
-- **Use Case:** Utility scripts, quick CLI tools, or boilerplate generators used largely as outputted by the model.
+___
+___
 
-#### 🔴 AI Generated — High
-- **Scope:** End-to-end AI generation (e.g., prompt-to-app, v0, AutoGPT) pushed with little to no modification or manual audit.
-- **Human Oversight:** Minimal to none beyond running the generation prompt.
-- **Use Case:** Experimental code, quick prototypes, or automated repository generation.
-
----
-
-## 🚀 How to Use in Your Project
-
-Copy and paste the relevant Markdown badge into your repository’s `README.md`.
-
-### Markdown Snippets
-
-```markdown
-<!-- AI Assisted Badges -->
-[![AI Assisted: Low](https://img.shields.io/badge/AI_Usage-Assisted:_Low-brightgreen?style=flat-square)](#)
-[![AI Assisted: Mid](https://img.shields.io/badge/AI_Usage-Assisted:_Mid-yellow?style=flat-square)](#)
-[![AI Assisted: High](https://img.shields.io/badge/AI_Usage-Assisted:_High-red?style=flat-square)](#)
-
-<!-- AI Generated Badges -->
-[![AI Generated: Low](https://img.shields.io/badge/AI_Usage-Generated:_Low-brightgreen?style=flat-square)](#)
-[![AI Generated: Mid](https://img.shields.io/badge/AI_Usage-Generated:_Mid-yellow?style=flat-square)](#)
-[![AI Generated: High](https://img.shields.io/badge/AI_Usage-Generated:_High-red?style=flat-square)](#)
-```
-
----
-
-## 🤝 Contributing & Feedback
+<center>
+<h2> Contributing & Feedback </h2>
 
 Suggestions for refining these definitions or adding asset icons are welcome. Please open an issue or submit a pull request!
+</center>
 
+___
+___
 
-## 📜 License
+<center>
+<h2> License </h2>
 
-This specification and all associated badges are available under the CC0 1.0 Universal (Public Domain) license. Feel free to use them freely in any open-source or commercial project.
+This specification and all associated badges are available under the **CC0 1.0 Universal (Public Domain)** license. Feel free to use them freely in any open-source or commercial project.
+</center>
