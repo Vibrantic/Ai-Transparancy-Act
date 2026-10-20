@@ -32,8 +32,6 @@ ___
         <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
             <img src="./labels/AiAssisted_Low.svg" alt="AI Assisted: Low" height="128">
         </a>
-    <td>
-    <td>
         <a href="https://github.com/Vibrantic/Ai-Transparency-Act">
             <img src="./labels/AiGenerated_Mid.svg" alt="AI Assisted: Low" height="128">
         </a>
