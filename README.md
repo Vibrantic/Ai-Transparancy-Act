@@ -49,9 +49,10 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
+<div style="background:#fffde7">
 <table width="100%" style="border-collapse: collapse;">
   <tr>
-    <td style="background: #fffde7; border-left: 6px solid #ffeb3b; padding: 16px; border-radius: 4px;">
+    <td style="border-left: 6px solid #ffeb3b; padding: 16px; border-radius: 4px;">
       <p style="margin: 0; color: #1c1b1f;">
         <b>📌 Note on Voluntary Adoption:</b><br>
         <i>Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.</i>
@@ -59,6 +60,7 @@ ___
     </td>
   </tr>
 </table>
+</div>
 ㅤ
 <div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
