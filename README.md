@@ -49,7 +49,16 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-<div style="background-color: #fffde7; border-left: 6px solid #ffeb3b; padding: 16px;border-radius: 4px;">
+<style>
+    .simple_yellow_note {
+    background-color: #fffde7;
+    border-left: 6px solid #ffeb3b;
+    padding: 16px;
+    border-radius: 4px;
+    }
+</style>
+
+<div class="simple_yellow_note">
   <table width="100%">
     <tr>
       <td>
