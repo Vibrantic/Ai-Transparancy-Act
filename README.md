@@ -49,8 +49,8 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
-> [!TIP]
-> **📌 Note on Voluntary Adoption**
+> [!NOTE]
+> **📌 Voluntary Adoption**
 >
 > Using these labels is completely voluntary. No maintainer or developer is obligated to adopt them. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
 ㅤ
