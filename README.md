@@ -49,6 +49,27 @@ ___
 
 <a id="-note-on-voluntary-adoption"></a>
 
+<div style="
+  background-color: #fefabc;
+  color: #333333;
+  width: 260px;
+  min-height: 200px;
+  padding: 20px;
+  border-left: 1px solid #f0e68c;
+  box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  font-family: 'Comic Sans MS', 'Caveat', 'Segoe Print', cursive, sans-serif;
+  margin: 20px auto;
+  position: relative;
+">
+  <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 10px; border-bottom: 2px stroke #e6dc83;">
+    📌 Important Note
+  </div>
+  <p style="margin: 0; line-height: 1.4;">
+    Remember to update the badge taxonomy labels in the repository before releasing v1.0!
+  </p>
+</div>
+
 <div style="background-color:#fffde7">
 <table width="100%" style="border-collapse: collapse;">
   <tr>
