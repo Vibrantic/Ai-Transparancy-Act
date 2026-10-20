@@ -2,7 +2,30 @@
 
 Standardized, open-source svg badges to declare the level of AI involvement in software, writing, design, and hardware projects.
 
+<center>
+<h3><b> So we will start with it! </b></h3>
+
 ---
+
+</center>
+
+<center>
+<h2> 📝 Documentation Disclosure </h2>
+<a href="https://github.com/Vibrantic/Ai-Transparency-Act">
+  <img src="./.github/labels/AiAssisted_Mid.svg" alt="AI Assisted: Low" height="28">
+</a>
+
+In line with the transparency principles of this project, please note that this `README.md` file was generated using **Gemini (Google AI)** to draft the taxonomy, structure, and usage guidelines. All content has been manually reviewed and verified by the maintainer.
+
+</center>
+
+
+
+---
+
+## 💡 A Note on Voluntary Adoption
+
+Using these labels is completely voluntary. No maintainer or developer is obligated to adoption. However, if we want to build genuine trust, transparency, and acceptance around AI tools, clear disclosure is an impactful step forward. Sharing how a project was built helps foster understanding and mutual respect across the entire community.
 
 ## 💡 Why This Project Exists
 
@@ -90,3 +113,15 @@ Copy and paste the relevant Markdown badge into your repository’s `README.md`.
 [![AI Generated: Low](https://img.shields.io/badge/AI_Usage-Generated:_Low-brightgreen?style=flat-square)](#)
 [![AI Generated: Mid](https://img.shields.io/badge/AI_Usage-Generated:_Mid-yellow?style=flat-square)](#)
 [![AI Generated: High](https://img.shields.io/badge/AI_Usage-Generated:_High-red?style=flat-square)](#)
+```
+
+---
+
+## 🤝 Contributing & Feedback
+
+Suggestions for refining these definitions or adding asset icons are welcome. Please open an issue or submit a pull request!
+
+
+## 📜 License
+
+This specification and all associated badges are available under the CC0 1.0 Universal (Public Domain) license. Feel free to use them freely in any open-source or commercial project.
